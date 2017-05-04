@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>LUCIC, A Dog's Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    .w3-sidebar {
+        width: 115px;
+        background: white;
+    }
+    #main {
+        margin-left: 120px;
+    }
+    #main1 {
+        margin-left: 120px;
+    }
+</style>
+
+<body class="w3-center">
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-medium w3-hide-small w3-center">
+        <img src="imgs/propic2.jpg" alt="lucic" style="width:100%">
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-grey w3-hover-black">
+            <i class="fa fa-paw w3-xxlarge"></i>
+            <p>Home</p>
+        </a>
+        <a href="earlylife.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-paw w3-xxlarge"></i>
+            <p>Early Life</p>
+        </a>
+        <a href="photos.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-paw w3-xxlarge"></i>
+            <p>Gallery</p>
+        </a>
+        <a href="personallife.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-paw w3-xxlarge"></i>
+            <p>Personal Life</p>
+        </a>
+        <a href="tricks.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-paw w3-xxlarge"></i>
+            <p>Tricks</p>
+        </a>
+        <a href="toys.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-paw w3-xxlarge"></i>
+            <p>Toys</p>
+        </a>
+
+    </nav>
+    <div class="w3-bar w3-black w3-center w3-hide-large w3-tiny">
+        <a href="index.html" class="w3-bar-item w3-button w3-hover-white w3-center">Home</a>
+        <a href="earlylife.html" class="w3-bar-item w3-button w3-hover-white w3-center">Early Life</a>
+        <a href="photos.html" class="w3-bar-item w3-button w3-hover-white">Gallery</a>
+        <a href="personallife.html" class="w3-bar-item w3-button w3-hover-white w3-center">Personal Life</a>
+        <a href="tricks.html" class="w3-bar-item w3-button w3-hover-white w3-center">Tricks</a>
+        <a href="toys.html" class="w3-bar-item w3-button w3-hover-white w3-center">Toys</a>
+    </div>
+    <div class="stuff w3-hide-small w3-hide-medium" id="main">
+
+        <p class="w3-jumbo w3-text-white title1">Lucic's Photo Gallery</p>
+
+
+
+        <div class="slideshow  w3-center">
+            <img class="mySlides w3-half w3-animate-fading" src="imgs/sit.jpg" alt="soon">
+            <img class="mySlides w3-half w3-animate-fading" src="imgs/lucicpaw.jpg" alt="soon">
+            <img class="mySlides w3-half w3-animate-fading" src="imgs/lucicsit.jpg" alt="soon">
+            <img class="mySlides w3-half w3-animate-fading" src="imgs/lucicfriends.jpg" alt="soon">
+            <img class="mySlides w3-half w3-animate-fading" src="imgs/luciccouch.jpg" alt="soon">
+
+        </div>
+        <audio autoplay controls loop class="w3-third audio">
+            <source src="media/Sarah_McLachlan_-_In_the_arms_of_an_angelnline.mp3">
+                If you can read this, your browser does not support the audio element.
+        </audio>
+        <p class="w3-large w3-text-white song">Sarah McLachlan "In the Arms of an Angel"</p>
+        <script type="text/javascript">
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {
+                    myIndex = 1
+                }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 10000);
+            }
+        </script>
+
+
+    </div>
+
+
+</body>
+
+</html>

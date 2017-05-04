@@ -1,0 +1,96 @@
+body {
+    background: url(imgs/chalkboard.jpg);
+    text-align: center;
+    font-weight: bold;
+}
+.title {
+    margin: 0px;
+    text-decoration: underline;
+}
+.lucicmain {
+    height: 50%;
+    width: 50%;
+}
+.lucicpic {
+    height: 100%;
+    width: 100%;
+}
+.mainpics {
+    margin: 10px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.picbox {
+    display: flex;
+}
+.lucicpup {
+    height: 50%;
+    width: 50%;
+}
+.life {
+    max-width: 100%;
+    max-height: 100%;
+}
+.topmiddle {
+    max-width: 100%;
+}
+.pics {
+    height: 500px;
+}
+.kennel {
+    height: 500px;
+    max-width: 100%;
+}
+.home {
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.label {
+    margin-top: 5px;
+}
+.mySlides {
+    height: 100%;
+    width: 100%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+.navpic {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+.stuff {
+    display: flex;
+    flex-direction: column;
+}
+.audio {
+    margin-bottom: 5px;
+    margin-left: 33.3%
+}
+.song {
+    margin-bottom: 100px;
+    margin-top: 0px;
+    font-style: italic;
+}
+.title1 {
+    margin: 0px;
+    text-decoration: underline;
+    padding-bottom: 0px;
+    padding-top: 64px;
+}
+.audio1 {
+    display: none;
+}
+.mySlides1 {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.mySlides2 {
+    height: 100%;
+    width: 100%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
