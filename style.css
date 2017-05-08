@@ -3,6 +3,13 @@ body {
     text-align: center;
     font-weight: bold;
 }
+.body1 {
+    background: url(imgs/bone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+}
 .title {
     margin: 0px;
     text-decoration: underline;
@@ -93,4 +100,26 @@ body {
     width: 100%;
     margin-left: 25%;
     margin-bottom: 10px;
+}
+.tricks {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.videos {
+    padding: 50px;
+}
+.toys {
+    display: flex;
+}
+.toymain {
+    height: 50%;
+    width: 50%;
+}
+.toypics {
+    height: 50%;
+    width: 50%;
+    margin: 10px;
+}
+.toyname {
+    text-decoration: underline;
 }
